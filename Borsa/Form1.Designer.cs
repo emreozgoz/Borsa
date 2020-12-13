@@ -50,7 +50,7 @@ namespace Borsa
             this.btnHesapla.Location = new System.Drawing.Point(972, 460);
             this.btnHesapla.Name = "btnHesapla";
             this.btnHesapla.Size = new System.Drawing.Size(75, 23);
-            this.btnHesapla.TabIndex = 0;
+            this.btnHesapla.TabIndex = 5;
             this.btnHesapla.Text = "Hesapla";
             this.btnHesapla.UseVisualStyleBackColor = true;
             this.btnHesapla.Click += new System.EventHandler(this.btnHesapla_Click);
@@ -61,7 +61,7 @@ namespace Borsa
             this.dataGridView1.Location = new System.Drawing.Point(24, 22);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(755, 488);
-            this.dataGridView1.TabIndex = 2;
+            this.dataGridView1.TabIndex = 5555;
             this.dataGridView1.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_CellMouseClick);
             // 
             // label2
@@ -80,7 +80,7 @@ namespace Borsa
             this.comboBox1.Location = new System.Drawing.Point(972, 263);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 7;
+            this.comboBox1.TabIndex = 1;
             this.comboBox1.SelectedValueChanged += new System.EventHandler(this.comboBox1_SelectedValueChanged);
             // 
             // txtCevirme
@@ -88,7 +88,7 @@ namespace Borsa
             this.txtCevirme.Location = new System.Drawing.Point(972, 316);
             this.txtCevirme.Name = "txtCevirme";
             this.txtCevirme.Size = new System.Drawing.Size(121, 20);
-            this.txtCevirme.TabIndex = 8;
+            this.txtCevirme.TabIndex = 3;
             this.txtCevirme.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCevirme_KeyPress);
             // 
             // label3
@@ -115,7 +115,7 @@ namespace Borsa
             this.txtKur.Name = "txtKur";
             this.txtKur.ReadOnly = true;
             this.txtKur.Size = new System.Drawing.Size(121, 20);
-            this.txtKur.TabIndex = 15;
+            this.txtKur.TabIndex = 2;
             this.txtKur.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txtSonuc
@@ -124,7 +124,7 @@ namespace Borsa
             this.txtSonuc.Name = "txtSonuc";
             this.txtSonuc.ReadOnly = true;
             this.txtSonuc.Size = new System.Drawing.Size(121, 20);
-            this.txtSonuc.TabIndex = 16;
+            this.txtSonuc.TabIndex = 4;
             // 
             // label1
             // 
