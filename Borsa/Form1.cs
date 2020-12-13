@@ -47,7 +47,7 @@ namespace Borsa
             dataGridView1.Columns["BanknoteBuying"].Visible = false;
             dataGridView1.Columns["CurrencyCode"].DisplayIndex = 3;
 
-
+             
         }
 
         private void dataGridView1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
