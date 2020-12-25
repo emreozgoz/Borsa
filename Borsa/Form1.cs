@@ -21,9 +21,9 @@ namespace Borsa
         private void btnHesapla_Click(object sender, EventArgs e)
         {
             string kur = txtKur.Text;
-            float n1,sonuc, n2;
-            n1 = float.Parse(txtCevirme.Text);
-            n2 = float.Parse(kur.Replace(".",","));
+            double n1,sonuc, n2;
+            n1 = double.Parse(txtCevirme.Text);
+            n2 = double.Parse(kur.Replace(".",","));
             sonuc = n1 *n2;
             txtSonuc.Text = sonuc.ToString();
         }
@@ -46,8 +46,6 @@ namespace Borsa
             dataGridView1.Columns["CurrencyName"].Visible = false;
             dataGridView1.Columns["BanknoteBuying"].Visible = false;
             dataGridView1.Columns["CurrencyCode"].DisplayIndex = 3;
-
-             
         }
 
         private void dataGridView1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
